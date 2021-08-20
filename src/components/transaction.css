@@ -1,0 +1,12 @@
+.transaction {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.transaction p {
+    flex: 0.25;
+    padding-right: 20px;
+}
+

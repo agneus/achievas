@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    background-color: rgb(224, 227, 228);
+}
+
+.account {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

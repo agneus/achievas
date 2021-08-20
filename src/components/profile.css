@@ -1,0 +1,46 @@
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: white;
+    padding-left: 30px;
+    width: 45%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.profile p {
+    color: grey;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    color: grey;
+    size: 20px;
+    padding-left: 10px;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seconditem p {
+    color: black;
+}
+
+.seconditem {
+    padding-left: 35px;
+}
+
+
+
+
+

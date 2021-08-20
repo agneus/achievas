@@ -1,0 +1,44 @@
+.details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: white;
+    padding-left: 30px;
+    width: 45%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.details p {
+    color: grey;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seconditem p {
+    color: black;
+}
+
+.seconditem {
+    padding-left: 35px;
+}
+
+.seconditem a {
+    padding-right: 15px;
+    text-decoration: none;
+    color: rgb(27, 75, 207);
+    transition: transform .5s;
+}
+
+.seconditem a:hover{
+    transform: scale(1.1);
+    color: #FFD700;
+}
+
+
+
