@@ -10,7 +10,7 @@ const Member = ({title, subtitle, access}) => {
             <h3>{subtitle}</h3>
             <p>{access}</p>
             
-            
+            <div className="items">
                     <div className="item">
                         <CheckCircleIcon/>
                         <p>Key Concept Video</p>
@@ -28,6 +28,9 @@ const Member = ({title, subtitle, access}) => {
                         <CancelIcon/>
                         <p>Past Paper Questions</p>
                     </div>
+                    </div>
+                    
+                    <a href="#" className="button">Join</a>
                     
             
 
