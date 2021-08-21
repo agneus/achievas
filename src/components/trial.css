@@ -12,7 +12,7 @@
 .form {
     background-color: rgb(208, 213, 216);
     border-radius: 5px;
-    margin-top: 20px;
+    margin: 20px 0 80px 0;
 }
 
 .form > form {

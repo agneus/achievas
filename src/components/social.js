@@ -21,15 +21,15 @@ function SocialForm () {
             <h1>Social Security Membership</h1>
             <div className="form">
             <form>
-                <input type="text" value={firstname} placeholder="Given Name"/>
-                <input type="text" value={lastname} placeholder="Last Name"/>
-                <input type="email" value={email} placeholder="Email"/>
-                <input type="text" value={displayname} placeholder="Display Name"/>
-                <input type="password" value={password} placeholder="Password"/>
-                <input type="password" value={repassword} placeholder="Re-enter Password"/>
-                <input type="text" value={school} placeholder="Name of School"/>
-                <input type="number" value={studyyear} placeholder="Year of Study"/>
-                <input type="number" value={donations} placeholder="My Donations"/>
+            <input type="text" value={firstname} onChange={(e) => setFirstname(e.target.value)} placeholder="Given Name"/>
+                <input type="text" value={lastname} onChange={(e) => setLastname(e.target.value)} placeholder="Last Name"/>
+                <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="Email"/>
+                <input type="text" value={displayname} onChange={(e) => setDisplayname(e.target.value)} placeholder="Display Name"/>
+                <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} placeholder="Password"/>
+                <input type="password" value={repassword} onChange={(e) => setRepassword(e.target.value)} placeholder="Re-enter Password"/>
+                <input type="text" value={school} onChange={(e) => setSchool(e.target.value)} placeholder="Name of School"/>
+                <input type="number" value={studyyear} onChange={(e) => setStudyyear(e.target.value)} placeholder="Year of Study"/>
+                <input type="number" value={donations} onChange={(e) => setDonations(e.target.value)} placeholder="My Donations"/>
                 <a href="#" className="button">Apply</a>
             </form>
             </div>
