@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    background-color: white;
+    background-color: rgb(208, 213, 216);
     padding-left: 30px;
     width: 45%;
     border-radius: 5px;
@@ -28,6 +28,7 @@
 
 .items {
     display: flex;
+    flex-direction: row !important;
     justify-content: center;
     align-items: center;
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import './faq.css';
-import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
+
 
 const FAQ = ({question, answer}) => {
     return (
