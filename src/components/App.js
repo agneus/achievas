@@ -8,6 +8,9 @@ import Membership from "./Membership"
 import Login from "./Login"
 import PrivateRoute from "./PrivateRoute"
 import ForgotPassword from "./ForgotPassword"
+import TrialForm from "./trial"
+import GoldForm from "./gold"
+import SocialForm from "./social"
 //import UpdateProfile from "./UpdateProfile"
 
 function App() {
@@ -24,6 +27,15 @@ function App() {
             </PrivateRoute>
               <PrivateRoute path="/memberships">
               <Membership />
+            </PrivateRoute>
+              <PrivateRoute path="/trial">
+              <TrialForm />
+            </PrivateRoute>
+              <PrivateRoute path="/social">
+              <SocialForm />
+            </PrivateRoute>
+              <PrivateRoute path="/gold">
+              <GoldForm/>
             </PrivateRoute>
               {/* <PrivateRoute path="/update-profile" component={UpdateProfile} /> */}
               <Route path="/signup" component={Signup} />

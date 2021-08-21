@@ -16,14 +16,17 @@ function Membership() {
         <Member title="Trial Membership" 
         subtitle = "Free"
         access = "Limited access for 14 days"
+        type="./trial"
         ></Member>
-        <Member title="Trial Membership" 
+        <Member title="Social Security Membership" 
         subtitle = "Free"
         access = "Limited access for 14 days"
+        type="./social"
         ></Member>
-        <Member title="Trial Membership" 
+        <Member title="Gold Membership" 
         subtitle = "Free"
         access = "Limited access for 14 days"
+        type="./gold"
         ></Member>
       </div>
       <h1>Frequently Asked Questions</h1>

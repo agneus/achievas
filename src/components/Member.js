@@ -3,11 +3,11 @@ import './Member.css';
 import CheckCircleIcon from '@material-ui/icons/CheckCircle';
 import CancelIcon from '@material-ui/icons/Cancel';
 
-const Member = ({title, subtitle, access}) => {
+const Member = ({title, subtitle, access, type}) => {
     return (
         <div className="member">
             <h1>{title}</h1>
-            <h3>{subtitle}</h3>
+            <h4>{subtitle}</h4>
             <p>{access}</p>
             
             <div className="items">
@@ -30,7 +30,7 @@ const Member = ({title, subtitle, access}) => {
                     </div>
                     </div>
                     
-                    <a href="#" className="button">Join</a>
+                    <a href={type} className="button">Join</a>
                     
             
 
