@@ -5,12 +5,14 @@ import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
 const FAQ = ({question, answer}) => {
     return (
         <div className="faq">
-            <div className="question">
+            <div className="card">
+                <div className="question">
                 <h2>{question}</h2>
-                <ArrowDropDownIcon className="arrow"/>
+                </div>
+                <div className="answer">
+                <p>{answer}</p>
+                </div>
             </div>
-            <p>{answer}</p>
-
         </div>
     )
 }
