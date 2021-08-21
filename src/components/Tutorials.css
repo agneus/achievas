@@ -1,0 +1,14 @@
+.tutorials{
+    width: 80%;
+    margin: auto;
+    background-color: white;
+}
+
+.tut{
+    display: flex;
+    flex-direction: column;
+}
+
+.ching{
+    border: 0.5px solid black;
+}
