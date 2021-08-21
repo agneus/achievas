@@ -1,5 +1,7 @@
 .header{
     display:flex;
+    background-color: #0c0a0b;
+    
 }
 
 .head_logo{
@@ -15,7 +17,16 @@
 .head_right a{
     flex:1;
     text-decoration: none;
-    color: grey;
+    color: whitesmoke;
+    transition: transform .5s;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.btn{
+    flex:1;
+    text-decoration: none;
+    color: whitesmoke !important;
     transition: transform .5s;
     margin-left: 10px;
     margin-right: 10px;
@@ -23,11 +34,21 @@
 
 .head_right a:hover{
     transform: scale(1.1);
-    color: black;
+    color: #FFD700;
+}
+
+.head_right .btn:hover{
+    transform: scale(1.1);
+    color: #FFD700 !important;
 }
 
 .head_right{
     flex: 1;
     display: flex;
-    padding:20px;
+    padding: 13px;
+    align-items: center;
+}
+
+.logOutBtn{
+    text-decoration: none !important;
 }
