@@ -7,12 +7,12 @@
     align-items: center;
     border-radius: 5px;
     transition: transform .5s;
-    padding: 15px;
+    padding: 30px 15px;
 }
 
 .items {
     display: flex;
-    flex-direction: column;
+    flex-direction: column !important;
     justify-content: flex-start;
     align-items: flex-start;
     list-style: none;
