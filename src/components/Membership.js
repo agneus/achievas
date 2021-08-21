@@ -18,7 +18,7 @@ function Membership() {
         access = "Limited access for 14 days"
         type="./trial"
         ></Member>
-        <Member title="Social Security Membership" 
+        <Member title="Security Membership" 
         subtitle = "Free"
         access = "Limited access for 14 days"
         type="./social"

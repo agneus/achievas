@@ -18,7 +18,7 @@ function GoldForm () {
         <div>
             <Header/>
         <div className="trial">
-            <h1>Gold Membership</h1>
+            <h1>Gold Membership.</h1>
             <div className="form">
             <form>
                 <input type="text" value={firstname} placeholder="Given Name"/>
@@ -30,7 +30,7 @@ function GoldForm () {
                 <input type="text" value={school} placeholder="Name of School"/>
                 <input type="number" value={studyyear} placeholder="Year of Study"/>
                 <input type="number" value={donations} placeholder="My Donations"/>
-                <a href="#" className="button">Apply</a>
+                <a href="#" className="button gold">Apply</a>
             </form>
             </div>
 
