@@ -30,13 +30,13 @@ function Header() {
                 <a href="#">My Account</a>
                 <a href="#">Courses[+]</a>
                 {/* <a href="#">Membership</a> */}
-                <Link to="/memberships">
-          <button className="btn">Membership</button>
-        </Link>
+                <Link to="/memberships" className="btn">
+                  <button className="btn">Membership</button>
+                </Link>
                 {/* <a href="#">Sign Out</a> */}
-                <Button variant="link" onClick={handleLogout}>
-           Log Out
-        </Button>
+                  <Button className="logOutBtn" variant="link" onClick={handleLogout}>
+                Log Out
+                </Button>
             </div>
         </div>
     )

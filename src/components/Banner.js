@@ -1,5 +1,6 @@
 import React from 'react'
 import './Banner.css'
+import brain from './brain.gif'
 
 function Banner() {
     return (
@@ -11,7 +12,7 @@ function Banner() {
                 <button className='banner_button'>Video Demo</button>
             </div>
             <div className="banner_right">
-                <img src="https://s3.getstickerpack.com/storage/uploads/sticker-pack/random-anime-pack-1/sticker_1.png?d812a2af64073ed33f0d986364de44c0&d=200x200" alt="" />
+            <img src={brain} alt="" />
             </div>
         </div>
     )
