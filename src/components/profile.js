@@ -17,13 +17,6 @@ function Profile () {
                 <p>Name of School</p>
                 <p>Email Address</p>
             </div>
-            <div className="seconditem">
-                <p>A S M</p>
-                <p>Taseen</p>
-                <p>Taseen</p>
-                <p>Dhaka</p>
-                <p>taseen@gmail.com</p>
-            </div>
         </div>
         </div>
     )

@@ -11,17 +11,7 @@ function Details () {
                 <p>Status</p>
                 <p>Commencement Date</p>
                 <p>Expiration Date</p>
-                <p>Action</p>
-            </div>
-            <div className="seconditem">
-                <p>Trial</p>
-                <p>Active</p>
-                <p>1/04/2020</p>
-                <p>24/7/2021</p>
-                <p><a href="#">Renew</a>
-                <a href="#">Upgrade</a>
-                </p>
-                
+                <p>Action </p>
             </div>
             </div>
         </div>
