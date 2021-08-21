@@ -1,0 +1,49 @@
+.signupPage{
+    background-color: #17181f !important;
+    height: 100vh !important;
+}
+
+.signupContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signupForm{
+   
+    color: #fdfdfd !important ;
+    width: 30vw !important;
+    height: 75vh !important;
+    border: 2px whitesmoke solid!important;
+    margin-top: 110px;
+}
+
+
+#password, #password-confirm, #email{
+    font-size: 15px !important;
+    padding: 10px;
+    margin: 10px;
+}
+
+.signupBtn{
+    background-color: #fb72a5 !important;
+    border-radius: 10px !important;
+    margin-left: 5vw !important;
+    height: 5vh !important;
+    width: 20vw !important;
+    font-weight: bold;
+    color: #fee0f6 !important;
+}
+
+.signupTitle{
+    padding-top: 1vw !important;
+    margin-top: 1vw !important;
+    font-size: 60px !important;
+    margin-left: 1vw !important;
+}
+
+
+.logLink{
+    color: whitesmoke !important;
+    text-decoration: underline !important;
+}
