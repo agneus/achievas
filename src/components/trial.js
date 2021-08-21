@@ -18,7 +18,7 @@ function TrialForm () {
         <div>
             <Header/>
         <div className="trial">
-            <h1>Trial Membership</h1>
+            <h1>Trial Membership.</h1>
             <div className="form">
             <form>
                 <input type="text" value={firstname} onChange={(e) => setFirstname(e.target.value)} placeholder="Given Name"/>

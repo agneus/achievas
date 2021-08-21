@@ -18,7 +18,7 @@ function SocialForm () {
         <div>
             <Header/>
         <div className="trial">
-            <h1>Social Security Membership</h1>
+            <h1>Social Security Membership.</h1>
             <div className="form">
             <form>
             <input type="text" value={firstname} onChange={(e) => setFirstname(e.target.value)} placeholder="Given Name"/>

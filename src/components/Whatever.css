@@ -1,0 +1,57 @@
+.whatever{
+    display:flex;
+    width: 80%;
+    margin: auto;
+}
+.what{
+    margin: 20px;
+    padding: 20px;
+    flex: 0.3;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.what h2{
+    font-size: 24px;
+    color: #424242
+}
+
+.what1{
+    padding: 20px;
+}
+
+.weh{
+    display: flex;
+    background-color: #e4e8f2;
+    margin: 10px 0;
+    padding: 10px;
+    color: #424242;
+}
+
+.what button{
+    height: 24px;
+}
+
+.whatbut{
+    border: none;
+    background-color: #5172c4;
+    border-radius: 20px;
+    height: 30px;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: white;
+}
+
+.whatbut:hover{
+    transform: scale(1.08)
+}
+
+.what input{
+    width: 80%;
+    height: 24px;
+}
+
+.what3{
+    flex: 0.4
+}

@@ -31,7 +31,10 @@ function Header() {
                 <Link to="/account" className="btn">
                   <button className="btn">My Account</button>
                 </Link>
-                <a href="#">Courses[+]</a>
+                {/* <a href="#">Courses[+]</a> */}
+                <Link to="/courses" className="btn">
+                  <button className="btn">Courses[+]</button>
+                </Link>
                 {/* <a href="#">Membership</a> */}
                 <Link to="/memberships" className="btn">
                   <button className="btn">Membership</button>
