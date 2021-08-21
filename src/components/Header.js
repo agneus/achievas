@@ -27,7 +27,10 @@ function Header() {
                 <img src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/0a46b329632909.55fc107b86e40.png" alt="" />
             </div>
             <div className="head_right">
-                <a href="#">My Account</a>
+                {/* <a href="#">My Account</a> */}
+                <Link to="/account" className="btn">
+                  <button className="btn">My Account</button>
+                </Link>
                 <a href="#">Courses[+]</a>
                 {/* <a href="#">Membership</a> */}
                 <Link to="/memberships" className="btn">

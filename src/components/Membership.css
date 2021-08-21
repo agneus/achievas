@@ -1,19 +1,19 @@
 body{
-  margin: 0;
-  background-color: rgb(229, 233, 238);
-}
+    margin: 0;
+    background-color: rgb(194, 198, 204);
+  }
 
 .Membership {
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .types {
-display: flex;
-align-items: center;
-justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
 }
 
