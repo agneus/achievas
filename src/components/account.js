@@ -10,8 +10,7 @@ function Account () {
         <div>
         <Header/>
         <div className="account">
-            <h1>My Account</h1>
-            <Profile/>
+            <Profile />
             <Details/>
             <History/>
         </div>

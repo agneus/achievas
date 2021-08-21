@@ -3,21 +3,35 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    background-color: rgb(208, 213, 216);
+    background-color: #22262b;
     padding-left: 30px;
     width: 45%;
     border-radius: 5px;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .details p {
-    color: grey;
+    color: #bdbdbd;
+
+}
+
+h2{
+    color: #edeff3;
+    padding-top: 14px;
+    padding-bottom: 14px;
 }
 
 .items {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.firstitem p{
+    padding: 5px;
 }
 
 .seconditem p {

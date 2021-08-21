@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: rgb(224, 227, 228);
+    background-color: #1c1e1f !important;
 }
 
 .account {
@@ -8,4 +8,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+h1{
+    color: #d7d9db;
 }

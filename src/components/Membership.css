@@ -1,7 +1,10 @@
 body{
     margin: 0;
-    background-color: rgb(194, 198, 204);
+
   }
+.MemberMain{
+  background-color: #161819;
+}
 
 .Membership {
   display: flex;
@@ -10,11 +13,30 @@ body{
   align-items: center;
 }
 
+.memberTitle{
+  margin-top: 25px !important;
+  margin-bottom: 10px ;
+  font-size: 50px;
+}
+
+.faqTitle{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-size: 35px;
+}
+
 .types {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 25px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
 
+.questions{
+  margin-bottom: 30px;
 }
 
 

@@ -7,11 +7,11 @@ import Footer from './Footer';
 
 function Membership() {
   return (
-    <div>
+    <div className="MemberMain">
       <Header/>
       <div className="Membership">
-      <h1>Memberships</h1>
-      <p>description</p>
+      <h1 className="memberTitle">Memberships</h1>
+      {/* <p> description </p> */}
       <div className="types">
         <Member title="Trial Membership" 
         subtitle = "Free"
@@ -29,7 +29,7 @@ function Membership() {
         type="./gold"
         ></Member>
       </div>
-      <h1>Frequently Asked Questions</h1>
+      <h1 className="faqTitle">Frequently Asked Questions</h1>
       <div className="questions">
         <FAQ question="What is life?" answer="Bhallagena bhai ar"></FAQ>
         <FAQ question="What is life?" answer="Bhallagena bhai ar"></FAQ>

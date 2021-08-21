@@ -40,7 +40,7 @@ export default function Login() {
                   <h2 className="text-center mb-4" className="loginHeading2">Login to AchieVas</h2>
                   <h2 className="text-center mb-4" className="loginHeading3">Academy</h2>
                 </div>
-                {error && <Alert variant="danger">{error}</Alert>}
+                {/* {error && <Alert variant="danger">{error}</Alert>} */}
                 <Form onSubmit={handleSubmit} className="formSecond">
                   <Form.Group id="email">
                     <Form.Label className="heading">Email</Form.Label>
