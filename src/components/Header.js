@@ -24,7 +24,9 @@ function Header() {
     return (
         <div className='header'>
             <div className="head_logo">
+            <Link to="/">
                 <img src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/0a46b329632909.55fc107b86e40.png" alt="" />
+                </ Link>
             </div>
             <div className="head_right">
                 {/* <a href="#">My Account</a> */}
